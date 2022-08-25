@@ -1,0 +1,29 @@
+### Verbo GET – listar
+GET http://localhost:8000/customers/0 HTTP/1.1
+
+### Verbo POST – adicionar
+POST http://127.0.0.1:8000/customers HTTP/1.1
+
+{
+"name" : "Abc da Silva",
+"cpf" : "01923874656",
+"phone" : "49988234567",
+"password" : "bolinhas",
+"registration" : "12345",
+"group" : "1"
+}
+
+### Verbo PUT – atualiza
+PUT http://127.0.0.1:8000/customers/2 HTTP/1.1
+
+{
+"name" : "Abc da Silva",
+"cpf" : "01923874656",
+"phone" : "49988234567",
+"password" : "bolinhas",
+"registration" : "12345",
+"group" : "1"
+}
+
+### Verbo DELETE - excluir
+DELETE http://127.0.0.1:8000/customers/3 HTTP/1.1
